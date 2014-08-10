@@ -1,8 +1,15 @@
 {
   "name": "bower-rangy",
-  "version": "1.3 alpha",
+  "version": "1.3alpha.20140716",
   "license": "MIT",
-  "main": "rangy-core.js",
+  "main": [
+    "rangy-core.js",
+    "rangy-cssclassapplier.js",
+    "rangy-highlighter.js",
+    "rangy-selectionsaverestore.js",
+    "rangy-serializer.js",
+    "rangy-textrange.js"
+  ],
   "ignore": [
     "**/.*",
     "node_modules",
